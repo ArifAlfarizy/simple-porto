@@ -34,3 +34,24 @@ Check installation:
 node -v
 npm -v
 git --version
+```
+Clone the Repository
+```bash
+git clone https://github.com/ArifAlfarizy/simple-porto.git
+```
+
+Enter the Project Directory
+```bash
+cd simple-porto
+```
+
+Install Dependencies
+```bash
+npm install
+```
+
+Run the Project
+```bash
+npm run dev
+```
+The App will run locally at: http://localhost:5173
