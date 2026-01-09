@@ -1,6 +1,6 @@
 import React from "react";
-import sunsetImg from "../assets/sunset-img.svg";
-import cloudImg from "../assets/cloud-img.svg";
+import sunsetImg from "./assets/images/sunset-img.svg";
+import cloudImg from "./assets/images/cloud-img.svg";
 
 const Hero = () => {
   return (

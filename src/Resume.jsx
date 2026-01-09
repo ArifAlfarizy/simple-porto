@@ -1,4 +1,6 @@
 import React from "react";
+import arifImg from "./assets/images/arif-img.svg"
+
 
 const Resume = () => {
   return (
@@ -7,7 +9,7 @@ const Resume = () => {
         <div class="resume-container">
           <img
             class="arif-img"
-            src="./images/arif-img.svg"
+            src={arifImg}
             alt="arif-picture"
           />
         </div>

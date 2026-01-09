@@ -3,6 +3,8 @@ import Resume from "./Resume";
 import Skill from "./Skill";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import catTyping from './assets/images/cat-typing.gif'
+import arifBasketball from './assets/images/bball-img.svg'
 
 const App = () => {
   return (
@@ -11,7 +13,7 @@ const App = () => {
       <Resume />
       <Skill
         imgClass="cat-typing"
-        imgSource="./images/cat-typing.gif"
+        imgSource={catTyping}
         imgAlt="cat-typing"
         unit="Web Development"
         detail=" I began coding during my college years as an Informatics
@@ -22,7 +24,7 @@ const App = () => {
       />
       <Skill
         imgClass="bball-img"
-        imgSource="./images/bball-img.svg"
+        imgSource={arifBasketball}
         imgAlt="arif holding his basketball trophy"
         unit="Playing Basketball"
         detail="I’m basically so good at basketball that if Kyrie Irving saw me play, he’d probably take notes.
